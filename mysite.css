@@ -7,13 +7,11 @@ body {
 	width:155px;
 }
 .content {
-	position:absolute;
-	padding-left:190px;
+	padding-left:175px;
 }
 .sidebar {
-	float:left;
 	padding-left:20px;
-	margin:0px;
+	float:left;
 	border-right:1px solid lightgrey;
 	width:155px;
 	background-color: #f6f6f6;
@@ -41,4 +39,94 @@ body {
 	margin:0px;
 	font-weight: normal;
 	font-family:sans-serif;
+}
+.sidebar a {
+	color:#0645ad;
+	text-decoration: none;
+}
+.sidebar a:hover  {
+	color:#0645ad;
+	text-decoration: underline;
+}
+.client ul {
+	margin:7px 5px 20px 5px;
+	padding-left:86em;
+}
+.client li {
+	list-style-type: none;
+	display:inline;
+	color:#0645ad;
+	font-family: arial;
+	font-size:12px;
+}
+.nav li {
+	list-style-type: none;
+	display:inline;
+	}
+.nav ul {
+	padding:5px;
+}
+.client a {
+	text-decoration: none;
+	color:#0645ad;
+}
+.leftnav ul {
+	padding-left:15px;
+	margin:0px;
+}
+.leftnav ul li {
+	display:inline-block;
+	list-style-type: none;
+}
+.leftnav li.article  {
+	
+}
+.leftnav li.talk {
+	width:300px;
+	border-right:1px solid lightgrey;
+	border-left:1px solid lightgrey;
+	border-bottom:1px solid lightgrey;
+	padding:8px 8px 8px 8px;
+}
+.client li.user {
+	color:grey;
+}
+.container {
+	padding-right: 25px;
+	padding-left:20px;
+}
+.container h1 {
+	font-family: times;
+	font-weight: lighter;
+	border-bottom:1px solid lightgrey;
+	margin-right:35px;
+	margin-bottom:3px;
+}
+.container h4 {
+	margin-top:4px;
+	font-weight: lighter;
+	color:#252525;
+}
+.container-text {
+	
+}
+.container-text h4 {
+	font-style:italic;
+	padding-left:20px;
+}
+.container table {
+	border:1px solid lightgrey;
+	width:17%;
+	font-family: times;
+}
+.container-text a {
+	text-decoration: none;
+	color:#0645ad;
+}
+.container-text a:hover {
+	text-decoration: underline;
+}
+.topic {
+	border:1px solid lightgrey;
+	width:200px;
 }
