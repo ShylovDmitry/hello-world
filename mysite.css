@@ -187,6 +187,41 @@ body {
 	font-size: 12px;
 }
 h2 {
+	width: 1390px;
 	font-weight: lighter;
 	border-bottom: 1px solid lightgrey;
+}
+.table {
+	background-color: #f9f9f9;
+	height: 1000px;
+	float:right;
+	width:290px;
+	border:1px solid lightgrey;
+}
+.table h3 {
+	margin:5px;
+	padding:5px;
+	text-align: center;
+	background-color: #C0C0C0;
+}
+.table img {
+	margin-left:5px;
+}
+.table p {
+	text-align: center;
+	margin:0px;
+	padding:0px;
+	font-size: 13px;
+	margin-top:-3px;
+}
+.table h4 {
+	text-align: center;
+	font-style:normal;
+	font-size:13px;
+	font-weight: bold;
+	background-color: #C0C0C0;
+	margin:5px;
+	padding:1px;
+
+
 }
