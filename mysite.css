@@ -3,8 +3,10 @@ body {
 	padding:0px;
 }
 .home {
+	padding-left:1px;
 	background-color: #f6f6f6;
 	width:155px;
+	padding-bottom: 6px;
 }
 .content {
 	padding-left:175px;
@@ -14,9 +16,9 @@ body {
 	padding-left:20px;
 	float:left;
 	border-right:1px solid lightgrey;
-	width:155px;
+	width:156px;
 	background-color: #f6f6f6;
-	padding-top:10px;
+	padding-top:3px;
 	font-family:arial sans-serif;
 }
 .sidebar ul {
@@ -27,11 +29,31 @@ body {
 	font-size:12px;
 	line-height: 20px;
 	font-family: arial;
-	border-bottom: 1px solid lightgrey;
+}
+.iconline {
+	margin-left:-10px;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIpH1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC);
+	width:149px;
+	height:1px;
+}
+.sidebar .block ul {
+	margin-bottom:4px;
+}
+.sidebar .block li {
+	line-height:19px;
+}
+.sidebar .block {
+	font-size:12px;
+	padding-left:7px;
 }
 .block .body ul {
 	margin-top:1px;
-	padding-left:13px;
+	padding-left:12px;
+}
+.block .body h4 {
+	margin-left:-5px;
+	padding-top:6px;
+	padding-bottom:2px;
 }
 .sidebar h4 {
 	color:#4d4d4d;
@@ -41,6 +63,20 @@ body {
 	font-weight: normal;
 	font-family:sans-serif;
 }
+.icontools {
+	margin-right:18px;
+	margin-top:6px;
+	padding-right:10px;
+	background-image: url(https://en.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.png?30312);
+	height:17px;
+	width:4px;
+	float:right;
+
+}
+.icontools:hover {
+	background:url(https://en.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.png?30312)0px -16px;
+	
+}
 .sidebar a {
 	color:#0645ad;
 	text-decoration: none;
@@ -48,6 +84,13 @@ body {
 .sidebar a:hover  {
 	color:#0645ad;
 	text-decoration: underline;
+}
+.editlinks {
+	margin-right:60px;
+	float:right;
+	height: 10px;
+	width: 10px;
+	background-image:url(https://en.wikipedia.org/w/extensions/Wikidata/extensions/Wikibase/client/resources/images/WBC-Asset-Pencil.png?3bd62);
 }
 .client ul {
 	margin:0px 5px 20px 5px;
