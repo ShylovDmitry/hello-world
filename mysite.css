@@ -76,7 +76,7 @@ body {
 
 }
 .icontools:hover {
-	background:url(https://en.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.png?30312)0px -16px;
+	background-position: 0 -16px;
 	
 }
 .sidebar a {
@@ -87,11 +87,11 @@ body {
 	color:#0645ad;
 	text-decoration: underline;
 }
-.editlinks span:hover{
+.edit-links span:hover{
 	color:#0645ad;
 	text-decoration: underline;
 }
-.editlinks .pen {
+.edit-links .pen {
 	margin-top:1px;
 	margin-left:70px;
 	background-image: no-repeat;
@@ -100,100 +100,127 @@ body {
  	background-image:url(https://en.wikipedia.org/w/extensions/Wikidata/extensions/Wikibase/client/resources/images/WBC-Asset-Pencil.png?3bd62);
  	float:left;
 }
-.editlinks span {
+.edit-links span {
 	font-size: 12px;
 	color:grey;
 	float:right;
 	padding-right:25px;
 	font-family: sans-serif;
 }
-
 .client ul {
 	margin:0px 5px 20px 5px;
-	padding-left:86em;
+	padding-left:1371px;
+	padding-top:7px;
+}
+.client li.login {
+	padding-left:15px;
+	background-repeat: no-repeat;
+	background-image:url(https://en.wikipedia.org/w/skins/Vector/images/user-icon.svg?7b5d5);
+	width:12px;
+	height:14px;
+}
+.client span {
+	color: #707070;
 }
 .client li {
+	padding-right:3px;
+	padding-left:2px;
 	list-style-type: none;
 	display:inline;
 	color:#0645ad;
 	font-family: arial;
 	font-size:12px;
 }
-.nav li {
-	list-style-type: none;
-	display:inline;
-	}
-.nav ul {
-	padding:5px;
-}
 .client a {
 	text-decoration: none;
 	color:#0645ad;
 }
-.leftnav ul {
-	font-size: 15px;
-	padding:0px;
-	float:left;
-	padding-left:5px;
-	margin:0px;
-	list-style-type: none;
-}
-.leftnav ul li {
-	color:#0645ad;
-	display:inline;
-}
-
-.leftnav li {
-	border:1px solid lightgrey;
-	background-color: #f6f6f6;
-	padding:7px 10px;
-	border-radius: 5px;
-}
-
-.leftnav a {
-	text-decoration: none;
-}
-.leftnav a:hover {
+.client a:hover {
 	text-decoration: underline;
 	color:#0645ad;
+}
+.navigation {
+	padding-bottom:34px;
+	border-bottom:1px solid #a7d7f9;
+
+}
+.leftnav ul {
+	margin:0px;
+	margin-top:10px;
+	padding: 0px;
+	list-style-type: none;
+	float:left;
 }
 .rightnav ul {
-	font-size: 15px;
-	padding:0px;
 	margin:0px;
+	padding:0px;
+	margin-top:10px;
+	margin-right:10px;
 	list-style-type: none;
 	float:right;
-	padding-right:15px;
 }
-.rightnav a {
-	text-decoration: none;
-}
-.rightnav a:hover {
-	text-decoration: underline;
-	color:#0645ad;
+.leftnav ul li {
+	padding-bottom:8px;
+	display:inline-block;
+	font-size: 13px;
+	font-family: sans-serif;
+	padding-right:7px;
 }
 .rightnav ul li {
+	display:inline-block;
+	padding-bottom:8px;
+	font-size: 13px;
+	font-family: sans-serif;
+	padding-right:7px;
+}
+.rightnav li.read {
+	padding-bottom: 7px;
+	padding-left:6px;
+	padding-right:5px;
+	background-color: white;
+	color:black;
+	border-left:1px solid #a7d7f9;
+	border-right:1px solid #a7d7f9;
+}
+.rightnav li.edit-nav {
 	color:#0645ad;
-	display:inline;
+	border-right:1px solid #a7d7f9;
+	padding-right: 4px;
+	padding-left:2px;
+	padding-bottom:6px;
 }
-.rightnav li  {
-	border:1px solid lightgrey;
-	border-radius: 5px;
-	background-color: #f6f6f6;
-	padding:7px 10px;
+.rightnav li.view-history {
+	color:#0645ad;
+	border-right:1px solid #a7d7f9;
+	padding-right: 4px;
+	padding-left:2px;
+	padding-bottom:6px;
 }
-
-.client li.user {
-	color:grey;
+.rightnav li.search {
+	padding-left:4px;
+}
+.leftnav li.article {
+	color:black;
+	border-right:1px solid #a7d7f9;
+	background-color:white;
+	padding-left:6px;
+	padding-right: 5px;
+}
+.leftnav li.talk {
+	color:#0645ad;
+	border-right:1px solid #a7d7f9;
+	padding-right: 4px;
+	padding-left:2px;
 }
 .container {
 	line-height: 20px;
 	font-family: arial;
 	font-size: 14px;
 	padding-right: 25px;
-	padding-left:20px;
+	padding-left:26px;
 }
 .container h1 {
+	margin-top:10px;
 	font-family: times;
 	font-weight: lighter;
 	border-bottom:1px solid lightgrey;
@@ -230,7 +257,7 @@ body {
 	font-size:13px;
 	color:#0645ad;
 	width:220px;
-	border:1px solid lightgrey;
+	border:1px solid grey;
 	background-color: 
 }
 .topic h4 {
