@@ -16,7 +16,7 @@ body {
 	padding-left:175px;
 }
 .sidebar {
-	height:1200px;
+	height:1220px;
 	padding-left:20px;
 	float:left;
 	border-right:1px solid #a7d7f9;
@@ -142,10 +142,9 @@ body {
 	color:#0645ad;
 }
 .navigation {
-	background: linear-gradient(to top,rgb(246,246,246) , white);
+	background: linear-gradient(to top,rgb(246,246,246), white);
 	padding-bottom:34px;
 	border-bottom:1px solid #a7d7f9;
-
 }
 .leftnav ul {
 	margin:0px;
@@ -186,6 +185,7 @@ body {
 	border-right:1px solid #a7d7f9;
 }
 .rightnav li.edit-nav {
+	background: linear-gradient(to top,rgb(234,244,248), white);
 	color:#0645ad;
 	border-right:1px solid #a7d7f9;
 	padding-right: 4px;
@@ -193,6 +193,7 @@ body {
 	padding-bottom:6px;
 }
 .rightnav li.view-history {
+	background: linear-gradient(to top,rgb(234,244,248), white);
 	color:#0645ad;
 	border-right:1px solid #a7d7f9;
 	padding-right: 4px;
@@ -214,10 +215,21 @@ body {
 	padding-right: 5px;
 }
 .leftnav li.talk {
+	background: linear-gradient(to top,rgb(234,244,248) , white);
 	color:#0645ad;
 	border-right:1px solid #a7d7f9;
 	padding-right: 4px;
 	padding-left:2px;
+	padding-bottom: 7px;
+}
+.leftnav li.talk:hover {
+	text-decoration: underline;
+}
+.rightnav li.edit-nav:hover {
+	text-decoration: underline;
+}
+.rightnav li.view-history:hover {
+	text-decoration: underline;
 }
 .container {
 	line-height: 20px;
@@ -301,36 +313,12 @@ body {
 }
 .topic .topiclevel1-items {
 	padding-left: 27px;
+	padding-right: 0px;
 
 }
-.topic .topiclevel1 span {
-	padding-right: 2px;
+.topic span {
+	padding-right:6px;
 }
-.topic .topiclevel2 span {
-	padding-right: 2px;
-}
-.topic .topiclevel3 span {
-	padding-right: 2px;
-}
-.topic .topiclevel4 span {
-	padding-right: 2px;
-}
-.topic .topiclevel5 span {
-	padding-right: 2px;
-}
-.topic .topiclevel6 span {
-	padding-right: 2px;
-}
-.topic .topiclevel7 span {
-	padding-right: 2px;
-}
-.topic .topiclevel8 span {
-	padding-right: 2px;
-}
-.topic .topiclevel9 span {
-	padding-right: 2px;
-}
-
 .topic ul {
 	margin:0px;
 	padding:0px;
