@@ -200,8 +200,22 @@ body {
 	padding-left:2px;
 	padding-bottom:6px;
 }
-.rightnav li.search {
-	padding-left:4px;
+.rightnav .search {
+	border:1px solid lightgrey;
+}
+.rightnav .input-search {
+	height: 19px;
+	border:0;
+}
+.rightnav .search-icon {
+	background: url("https://en.wikipedia.org/w/skins/Vector/images/search-ltr.png?39f97") no-repeat;
+	width:12px;
+	height:13px;
+	border:0;
+	text-indent: -9999px;
+	margin-top: 3px;
+	margin-right: 1px;
+	float:right;
 }
 .search input.searchicon {
 
